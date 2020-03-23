@@ -1,0 +1,335 @@
+/* table style */
+.datagrid
+{
+	font-family: verdana;
+	font-size: 12px;
+	width: 100%;
+	border: none;
+	position:static;
+
+}
+
+.datagridResult
+{
+	font-family: verdana;
+	font-size: 12px;
+	width: 100%;
+	border: none;
+	position:static;
+
+}
+
+/* common cell styles */
+.datagridResult th, .datagridResult td
+{
+	cursor: default;
+	border: none;
+}
+
+.datagridResult th
+{
+	background:none repeat scroll 0 0 #D2E2F1;
+	border-color:#81B9E8;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	color:#1B79C3;
+	font:bold 12px Arial,Helvetica,sans-serif;
+	padding:5px 8px;
+	text-align:center;
+}
+
+
+/* cell styles */
+.datagridResult td
+{
+	
+	background:#FFFFFF;
+	padding:5px;
+	text-align:left;
+	border-color:#81B9E8;
+	border-style:solid;
+	border-width:0px 1px 1px 1px;	
+}
+
+
+
+/* common cell styles */
+.datagrid th, .datagrid td
+{
+	cursor: default;
+	border: none;
+}
+
+
+.datagrid th
+{
+	-x-system-font:none;
+	color:#B40006;
+	display:block;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+	margin:0;
+	padding:7px 0 5px 10px;
+	text-transform:uppercase;
+}
+
+/* header cell style */
+
+
+.table_title {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	background:#ececec;
+	color:#015fa7;
+	text-align:center;
+	padding:5px 0;
+}
+
+.datagrid tf
+{
+	background: #ebf3ff;
+}
+
+.table_text_normal_1 {
+font:normal 12px Arial, Helvetica, sans-serif;
+background:#FFFFFF;
+padding:5px;
+text-align:left;
+}
+
+/* cell styles */
+.datagrid td
+{
+    font:normal 12px Arial, Helvetica, sans-serif;
+	background:#FFFFFF;
+	padding:5px;
+	text-align:left;
+	border: 
+	
+}
+
+
+
+/* mouseover row style 
+.datagrid tr:hover
+{
+	background: #EDF4FF url(/PublishingImages/style/grid_row_hover.png) repeat-x;
+}
+*/
+.AlternatingRow
+{
+	background-color:#E0E9FF;
+}
+
+
+
+.grdPager
+{
+	background: url(../../PublishingImages/style/bg_page.html) 0 0 repeat-x;
+	height: 40px;
+	font-size: 12px;
+	line-height: 10px;
+	text-align:right;
+	padding-right: 20px;
+}
+.mainpagerfont
+{
+	height: 10px;
+	font-size: 10px;	
+	text-align: left;
+	font-weight: bold;
+    width:100%;
+}
+
+.mainpagerfont td
+{
+	border-bottom: 1px solid #81B9E8;
+	border-top: 1px solid #81B9E8;
+	border-left: 1px solid #81B9E8;
+	border-right: 1px solid #81B9E8;
+    
+}
+.mainpagerfont tbody td{
+	border-bottom: 1px solid #D7D7D7;
+	border-top: 1px solid #D7D7D7;
+	border-left: 1px solid #D7D7D7;
+	border-right: 1px solid #D7D7D7;
+    font:normal 12px Arial, Helvetica, sans-serif;
+    width:12px; 
+    height:10px;    
+    text-align:center;
+    padding: 5px;
+   
+}
+.mainpagerfont a:link
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: blue;
+}
+
+.mainpagerfont a:active
+{	
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: blue;
+}
+
+
+
+
+.mainpagerfont tbody td a:hover
+{
+	
+	font-size: 11px;
+	font-style: normal;
+	font-weight:bold;
+    text-decoration:underline;
+	color: blue;
+}
+/*Nhom style cho thanh tieu de */
+
+.grild
+{
+	padding: 1px;
+	clear: both;
+	display: block;
+}
+
+.box
+{
+	background: transparent url(../../PublishingImages/style/bg_bar.html) repeat-x scroll 0 0;
+	clear: both;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	z-index: 1;
+}
+
+.editor {
+	float:right;
+	display:block;
+	width:250px;
+	padding:0;
+	margin:0;
+	 font-size:10pt;
+	}
+.editor span {float:right; display:block; padding:0px 7px 0 0; vertical-align:middle;
+	
+}
+.editor span img{margin-top:2px;}
+.editor span a {text-decoration:none; color:#000000}
+.editor span a:hover {text-decoration:none;}
+
+.line_light_
+{
+	background: #F2F2FF none repeat scroll 0 0;
+	border-bottom: 1px solid #77BBFF;
+	padding: 5px;
+}
+
+.line_dark_
+{
+	background: #E0E9FF none repeat scroll 0 0;
+	border-bottom: 1px solid #77BBFF;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+.menuleft_title
+{
+	background: transparent url(../../PublishingImages/style/bg_menu_left.html) no-repeat scroll 0 0;
+	display: block;
+	font-weight: bold;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 10px;
+	z-index: 1;
+}
+
+.khung_search {
+	display:block;
+	clear:both;
+	
+	width:98%;
+	
+	
+	display:block;
+	clear:both;
+	overflow:hidden;
+	
+	border-style:none;
+	
+	margin-top:10px;	
+	background:url(../../PublishingImages/vbpq_images_2/yellow_green_long.html) 0 0 no-repeat;
+
+}
+
+td.trichyeu {
+	padding:5px 10px;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	border-right:solid 1px #ffb8b8
+}
+td.banhanh {
+	padding:5px 10px;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	border-right:solid 1px #ffb8b8
+}
+td.vanban {
+border-right:1px solid #FFB8B8;
+color:#003092;
+font:bold 12px Arial,Helvetica,sans-serif;
+padding:5px 10px;
+}
+
+td.stt {
+border-right:1px solid #FFB8B8;
+font:bold 12px Arial,Helvetica,sans-serif;
+padding:5px 0;
+text-align:center;
+}
+
+
+/*-------------*/
+td.stt {
+	padding:5px 0;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	border-right:solid 1px #81b9e8;
+	text-align:center;
+	border-left:solid 1px #81b9e8;
+}
+td.vanban {
+	padding:5px 10px;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#003092;
+	border-right:solid 1px #81b9e8;
+}
+td.vanban a {color:#003092}
+td.trichyeu {
+	padding:5px 10px;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	border-right:solid 1px #81b9e8;
+	text-align:justify;
+}
+td.banhanh {
+	padding:5px 5px;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	border-right:solid 1px #81b9e8;
+	text-align:left
+}
+tr.chan {background:#f1f8fe}
+tr.chan td{
+	background:#f1f8fe;
+}
+
+
